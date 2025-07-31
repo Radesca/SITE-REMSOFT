@@ -1,0 +1,455 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog - REM SOFT | Insights e Tendências em Tecnologia</title>
+    <meta name="description" content="Acompanhe as últimas tendências em tecnologia, desenvolvimento e inovação no blog da REM SOFT. Insights exclusivos para impulsionar seu negócio.">
+    <link rel="stylesheet" href="blog-styles.css">
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <nav class="navbar">
+            <div class="nav-container">
+                <div class="logo-section">
+                    <a href="index.html" class="logo-link">
+                        <img src="LOGO-BRANCA.png" alt="REM SOFT Logo" class="logo-image">
+                    </a>
+                </div>
+
+                <ul class="nav-menu">
+                    <li><a href="index.html" class="nav-link">Início</a></li>
+                    <li><a href="quem-somos.html" class="nav-link">Quem Somos</a></li>
+                    <li><a href="produtos.html" class="nav-link">Produtos</a></li>
+                    <li><a href="cases.html" class="nav-link">Cases</a></li>
+                    <li><a href="blog.html" class="nav-link active-link">Blog</a></li>
+                    <li><a href="contato.html" class="nav-link">Contato</a></li>
+                    <li><a href="chat-page.html" class="nav-link">Chat IA</a></li>
+                </ul>
+
+                <div class="header-right">
+                    <div class="social-links">
+                        <a href="#" class="social-link" aria-label="Facebook">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                                <path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/>
+                            </svg>
+                        </a>
+                        <a href="#" class="social-link" aria-label="Instagram">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                                <path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/>
+                            </svg>
+                        </a>
+                        <a href="#" class="social-link" aria-label="LinkedIn">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                                <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/>
+                            </svg>
+                        </a>
+                    </div>
+                    <a href="contato.html" class="cta-header-btn magnetic-item">
+                        <span>Orçamento</span>
+                    </a>
+                </div>
+                <button class="mobile-menu-toggle" aria-label="Abrir menu">
+                    <span></span><span></span><span></span>
+                </button>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section class="hero-section">
+            <div class="hero-background-elements">
+                <div class="circuit-circle circuit-1"></div>
+                <div class="circuit-circle circuit-2"></div>
+                <div class="line-3d line-1"></div>
+                <div class="line-3d line-2"></div>
+                <div class="code-element code-1">&lt;/&gt;</div>
+                <div class="code-element code-2">{}</div>
+                <div class="bg-shape shape1"></div>
+                <div class="bg-shape shape2"></div>
+            </div>
+            <div class="container">
+                <div class="hero-content">
+                    <h1 class="hero-title">BLOG <span class="highlight">REM SOFT</span></h1>
+                    <p class="hero-description">
+                        Insights, tendências e conhecimento sobre o mundo da tecnologia. 
+                        Descubra as últimas inovações e estratégias para impulsionar seu negócio digital.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Search and Filter Section -->
+        <section class="search-filter-section">
+            <div class="container">
+                <div class="search-filter-container">
+                    <div class="search-box">
+                        <input type="text" placeholder="Buscar artigos..." class="search-input" id="searchInput">
+                        <svg class="search-icon" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <circle cx="11" cy="11" r="8"></circle>
+                            <path d="M21 21l-4.35-4.35"></path>
+                        </svg>
+                    </div>
+                    <div class="filter-categories">
+                        <button class="category-btn active" data-filter="all">TODOS</button>
+                        <button class="category-btn" data-filter="desenvolvimento">DESENVOLVIMENTO</button>
+                        <button class="category-btn" data-filter="design">DESIGN</button>
+                        <button class="category-btn" data-filter="tecnologia">TECNOLOGIA</button>
+                        <button class="category-btn" data-filter="negocios">NEGÓCIOS</button>
+                        <button class="category-btn" data-filter="ia">INTELIGÊNCIA ARTIFICIAL</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Featured Posts Section -->
+        <section class="featured-posts">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">POSTS EM DESTAQUE</h2>
+                    <p class="section-subtitle">Os artigos mais lidos e relevantes do nosso blog</p>
+                </div>
+
+                <div class="featured-grid">
+                    <article class="main-featured tilt-item">
+                        <img src="/placeholder.svg?height=350&width=700&text=Tendências+de+Desenvolvimento+Web+2025" alt="Tendências de Desenvolvimento Web 2025" class="featured-image">
+                        <div class="featured-content">
+                            <span class="featured-category">Desenvolvimento</span>
+                            <h3 class="featured-title">As Principais Tendências de Desenvolvimento Web para 2025</h3>
+                            <p class="featured-excerpt">
+                                Descubra as tecnologias e abordagens que estão moldando o futuro da web. De IA integrada a frameworks revolucionários, explore o que está por vir no desenvolvimento web.
+                            </p>
+                            <div class="featured-meta">
+                                <span>📅 15 de Janeiro, 2025</span>
+                                <span>⏱️ 8 min de leitura</span>
+                                <span>👁️ 2.5k visualizações</span>
+                            </div>
+                        </div>
+                    </article>
+
+                    <div class="secondary-featured">
+                        <article class="secondary-post tilt-item">
+                            <img src="/placeholder.svg?height=150&width=350&text=UX+Design+Mobile" alt="UX Design em Aplicativos Mobile" class="secondary-image">
+                            <div class="secondary-content">
+                                <span class="featured-category">Design</span>
+                                <h3>A Importância do UX Design em Aplicativos Mobile</h3>
+                                <p>Como uma boa experiência do usuário pode ser o diferencial para o sucesso do seu app mobile.</p>
+                                <div class="featured-meta">
+                                    <span>📅 10 de Janeiro, 2025</span>
+                                    <span>⏱️ 6 min</span>
+                                </div>
+                            </div>
+                        </article>
+
+                        <article class="secondary-post tilt-item">
+                            <img src="/placeholder.svg?height=150&width=350&text=Segurança+Digital" alt="Segurança Digital" class="secondary-image">
+                            <div class="secondary-content">
+                                <span class="featured-category">Tecnologia</span>
+                                <h3>5 Dicas Essenciais para Proteger seus Dados Online</h3>
+                                <p>A segurança digital é crucial nos dias de hoje. Aprenda medidas simples mas eficazes para proteger suas informações.</p>
+                                <div class="featured-meta">
+                                    <span>📅 05 de Janeiro, 2025</span>
+                                    <span>⏱️ 5 min</span>
+                                </div>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- All Posts Section -->
+        <section class="all-posts">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">TODOS OS ARTIGOS</h2>
+                    <p class="section-subtitle">Explore nosso acervo completo de conteúdo especializado</p>
+                </div>
+
+                <div class="posts-grid" id="postsGrid">
+                    <!-- Post 1 -->
+                    <article class="post-card tilt-item" data-category="tecnologia">
+                        <img src="/placeholder.svg?height=220&width=400&text=Segurança+Digital" alt="5 Dicas Essenciais para Proteger seus Dados Online" class="post-image">
+                        <div class="post-content">
+                            <div class="post-meta">
+                                <span class="post-category">Tecnologia</span>
+                                <span class="post-date">05 de Janeiro, 2025</span>
+                            </div>
+                            <h3 class="post-title">5 Dicas Essenciais para Proteger seus Dados Online</h3>
+                            <p class="post-excerpt">
+                                A segurança digital é crucial nos dias de hoje. Aprenda medidas simples mas eficazes para manter suas informações pessoais e empresariais seguras na internet.
+                            </p>
+                            <a href="#" class="read-more">
+                                Ler Mais
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                    <path d="M5 12h14M12 5l7 7-7 7"/>
+                                </svg>
+                            </a>
+                        </div>
+                    </article>
+
+                    <!-- Post 2 -->
+                    <article class="post-card tilt-item" data-category="desenvolvimento">
+                        <img src="/placeholder.svg?height=220&width=400&text=APIs+RESTful" alt="Como Criar APIs RESTful Eficientes" class="post-image">
+                        <div class="post-content">
+                            <div class="post-meta">
+                                <span class="post-category">Desenvolvimento</span>
+                                <span class="post-date">28 de Dezembro, 2024</span>
+                            </div>
+                            <h3 class="post-title">Como Criar APIs RESTful Eficientes</h3>
+                            <p class="post-excerpt">
+                                Guia completo para desenvolver APIs robustas, escaláveis e bem documentadas seguindo as melhores práticas do mercado e padrões da indústria.
+                            </p>
+                            <a href="#" class="read-more">
+                                Ler Mais
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                    <path d="M5 12h14M12 5l7 7-7 7"/>
+                                </svg>
+                            </a>
+                        </div>
+                    </article>
+
+                    <!-- Post 3 -->
+                    <article class="post-card tilt-item" data-category="design">
+                        <img src="/placeholder.svg?height=220&width=400&text=Design+System" alt="Criando um Design System Consistente" class="post-image">
+                        <div class="post-content">
+                            <div class="post-meta">
+                                <span class="post-category">Design</span>
+                                <span class="post-date">20 de Dezembro, 2024</span>
+                            </div>
+                            <h3 class="post-title">Criando um Design System Consistente</h3>
+                            <p class="post-excerpt">
+                                Como desenvolver e manter um design system que garanta consistência visual e melhore a experiência do usuário em todos os produtos digitais.
+                            </p>
+                            <a href="#" class="read-more">
+                                Ler Mais
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                    <path d="M5 12h14M12 5l7 7-7 7"/>
+                                </svg>
+                            </a>
+                        </div>
+                    </article>
+
+                    <!-- Post 4 -->
+                    <article class="post-card tilt-item" data-category="negocios">
+                        <img src="/placeholder.svg?height=220&width=400&text=Transformação+Digital" alt="Transformação Digital: Por Onde Começar" class="post-image">
+                        <div class="post-content">
+                            <div class="post-meta">
+                                <span class="post-category">Negócios</span>
+                                <span class="post-date">15 de Dezembro, 2024</span>
+                            </div>
+                            <h3 class="post-title">Transformação Digital: Por Onde Começar</h3>
+                            <p class="post-excerpt">
+                                Um guia prático para empresas que querem iniciar sua jornada de transformação digital de forma estratégica, eficiente e com resultados mensuráveis.
+                            </p>
+                            <a href="#" class="read-more">
+                                Ler Mais
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                    <path d="M5 12h14M12 5l7 7-7 7"/>
+                                </svg>
+                            </a>
+                        </div>
+                    </article>
+
+                    <!-- Post 5 -->
+                    <article class="post-card tilt-item" data-category="desenvolvimento">
+                        <img src="/placeholder.svg?height=220&width=400&text=React+Native" alt="React Native vs Flutter: Qual Escolher?" class="post-image">
+                        <div class="post-content">
+                            <div class="post-meta">
+                                <span class="post-category">Desenvolvimento</span>
+                                <span class="post-date">10 de Dezembro, 2024</span>
+                            </div>
+                            <h3 class="post-title">React Native vs Flutter: Qual Escolher?</h3>
+                            <p class="post-excerpt">
+                                Comparação detalhada entre as duas principais tecnologias para desenvolvimento mobile multiplataforma, com prós, contras e casos de uso.
+                            </p>
+                            <a href="#" class="read-more">
+                                Ler Mais
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                    <path d="M5 12h14M12 5l7 7-7 7"/>
+                                </svg>
+                            </a>
+                        </div>
+                    </article>
+
+                    <!-- Post 6 -->
+                    <article class="post-card tilt-item" data-category="ia">
+                        <img src="/placeholder.svg?height=220&width=400&text=Inteligência+Artificial" alt="IA no Desenvolvimento de Software" class="post-image">
+                        <div class="post-content">
+                            <div class="post-meta">
+                                <span class="post-category">Inteligência Artificial</span>
+                                <span class="post-date">05 de Dezembro, 2024</span>
+                            </div>
+                            <h3 class="post-title">IA no Desenvolvimento de Software: Presente e Futuro</h3>
+                            <p class="post-excerpt">
+                                Como a inteligência artificial está revolucionando o desenvolvimento de software e o que esperar para o futuro da programação assistida por IA.
+                            </p>
+                            <a href="#" class="read-more">
+                                Ler Mais
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                    <path d="M5 12h14M12 5l7 7-7 7"/>
+                                </svg>
+                            </a>
+                        </div>
+                    </article>
+
+                    <!-- Post 7 -->
+                    <article class="post-card tilt-item" data-category="tecnologia">
+                        <img src="/placeholder.svg?height=220&width=400&text=Cloud+Computing" alt="Cloud Computing para Pequenas Empresas" class="post-image">
+                        <div class="post-content">
+                            <div class="post-meta">
+                                <span class="post-category">Tecnologia</span>
+                                <span class="post-date">01 de Dezembro, 2024</span>
+                            </div>
+                            <h3 class="post-title">Cloud Computing para Pequenas Empresas</h3>
+                            <p class="post-excerpt">
+                                Descubra como a computação em nuvem pode transformar pequenas empresas, reduzindo custos e aumentando a eficiência operacional.
+                            </p>
+                            <a href="#" class="read-more">
+                                Ler Mais
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                    <path d="M5 12h14M12 5l7 7-7 7"/>
+                                </svg>
+                            </a>
+                        </div>
+                    </article>
+
+                    <!-- Post 8 -->
+                    <article class="post-card tilt-item" data-category="design">
+                        <img src="/placeholder.svg?height=220&width=400&text=UI+Trends" alt="Tendências de UI Design para 2025" class="post-image">
+                        <div class="post-content">
+                            <div class="post-meta">
+                                <span class="post-category">Design</span>
+                                <span class="post-date">25 de Novembro, 2024</span>
+                            </div>
+                            <h3 class="post-title">Tendências de UI Design para 2025</h3>
+                            <p class="post-excerpt">
+                                Explore as principais tendências de interface do usuário que dominarão 2025, desde minimalismo até elementos interativos avançados.
+                            </p>
+                            <a href="#" class="read-more">
+                                Ler Mais
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                    <path d="M5 12h14M12 5l7 7-7 7"/>
+                                </svg>
+                            </a>
+                        </div>
+                    </article>
+
+                    <!-- Post 9 -->
+                    <article class="post-card tilt-item" data-category="negocios">
+                        <img src="/placeholder.svg?height=220&width=400&text=E-commerce+Strategy" alt="Estratégias de E-commerce para 2025" class="post-image">
+                        <div class="post-content">
+                            <div class="post-meta">
+                                <span class="post-category">Negócios</span>
+                                <span class="post-date">20 de Novembro, 2024</span>
+                            </div>
+                            <h3 class="post-title">Estratégias de E-commerce para 2025</h3>
+                            <p class="post-excerpt">
+                                As melhores estratégias para impulsionar vendas online em 2025, incluindo personalização, omnichannel e experiência do cliente.
+                            </p>
+                            <a href="#" class="read-more">
+                                Ler Mais
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                    <path d="M5 12h14M12 5l7 7-7 7"/>
+                                </svg>
+                            </a>
+                        </div>
+                    </article>
+                </div>
+
+                <!-- Load More Button -->
+                <div class="load-more-section">
+                    <button class="load-more-btn magnetic-item" id="loadMoreBtn">
+                        <span>Carregar Mais Artigos</span>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M19 14l-7 7m0 0l-7-7m7 7V3"/>
+                        </svg>
+                    </button>
+                </div>
+            </div>
+        </section>
+
+        <!-- Newsletter Section -->
+        <section class="newsletter-section">
+            <div class="container">
+                <div class="newsletter-content">
+                    <h2 class="newsletter-title">FIQUE POR DENTRO</h2>
+                    <p class="newsletter-description">
+                        Receba nossos artigos mais recentes e insights exclusivos diretamente no seu e-mail. 
+                        Seja o primeiro a saber sobre as últimas tendências em tecnologia.
+                    </p>
+                    <form class="newsletter-form" id="newsletterForm">
+                        <input type="email" placeholder="Seu melhor e-mail" class="newsletter-input" required>
+                        <button type="submit" class="newsletter-btn">
+                            <span>Assinar Newsletter</span>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <line x1="22" y1="2" x2="11" y2="13"></line>
+                                <polygon points="22 2 15 22 11 13 2 9 22 2"></polygon>
+                            </svg>
+                        </button>
+                    </form>
+                    <p class="newsletter-disclaimer">
+                        📧 Não enviamos spam. Você pode cancelar a qualquer momento.
+                    </p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <img src="LOGO-BRANCA.png" alt="REM SOFT Logo" class="logo-image-footer">
+                    <p>Transformando ideias em soluções digitais inovadoras. Especialistas em desenvolvimento web, mobile e consultoria tecnológica.</p>
+                </div>
+                <div class="footer-links">
+                    <h4>Links Rápidos</h4>
+                    <ul>
+                        <li><a href="quem-somos.html">Quem Somos</a></li>
+                        <li><a href="produtos.html">Produtos</a></li>
+                        <li><a href="cases.html">Cases</a></li>
+                        <li><a href="depoimentos.html">Depoimentos</a></li>
+                        <li><a href="blog.html">Blog</a></li>
+                        <li><a href="#">Política de Privacidade</a></li>
+                        <li><a href="#">Termos de Uso</a></li>
+                    </ul>
+                </div>
+                <div class="footer-contact">
+                    <h4>Contato</h4>
+                    <p>🌐 Empresa 100% remota</p>
+                    <p>📍 Atendemos em todo Brasil</p>
+                    <p>📧 Email: contato@remsoft.com.br</p>
+                    <p>📱 Telefone: +55 (48) 4042-2634</p>
+                    <p>💬 WhatsApp: +55 (48) 99999-9999</p>
+                </div>
+                <div class="footer-social">
+                    <h4>Siga-nos</h4>
+                    <div class="social-links-footer">
+                        <a href="#" class="social-link" aria-label="Facebook">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+                                <path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/>
+                            </svg>
+                        </a>
+                        <a href="#" class="social-link" aria-label="YouTube">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+                                <path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; <span id="currentYear">2025</span> REM SOFT. Todos os direitos reservados. Feito com <span class="heart">♥</span> pela equipe REM SOFT.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="blog-data.js"></script>
+    <script src="blog-script.js"></script>
+</body>
+</html>
